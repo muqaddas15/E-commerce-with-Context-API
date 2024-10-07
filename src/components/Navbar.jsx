@@ -19,7 +19,6 @@ export default function Navbar() {
       <NavLink className='flex flex-col items-center' to={'/'}>
         <FaYoutube className='text-red-500 text-4xl' />
         <span>E-Commerce Web App</span>
-        <br/>
         <span>with Context API</span>
       </NavLink>
 
