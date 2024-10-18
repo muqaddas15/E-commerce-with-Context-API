@@ -5,7 +5,7 @@ export const products_data = [
     price: 10,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "makeup",
-    image: "/images/m1.jpg"
+    image:  `${process.env.PUBLIC_URL}/images/m1.jpg`
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const products_data = [
     price: 20,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "makeup",
-    image: "/images/m2.jpg"
+    image: `${process.env.PUBLIC_URL}/images/m2.jpg`
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const products_data = [
     price: 30,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "makeup",
-    image: "/images/m3.jpg"
+    image: `${process.env.PUBLIC_URL}/images/m3.jpg`
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const products_data = [
     price: 30,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "makeup",
-    image: "/images/m4.jpg"
+    image: `${process.env.PUBLIC_URL}/images/m4.jpg`
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const products_data = [
     price: 10,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "makeup",
-    image: "/images/m5.jpg"
+    image: `${process.env.PUBLIC_URL}/images/m5.jpg`
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const products_data = [
     price: 40,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c1.jpg`
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const products_data = [
     price: 99.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c2.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c2.jpg`
   },
   {
     id: 8,
@@ -61,7 +61,7 @@ export const products_data = [
     price: 9.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c3.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c3.jpg`
   },
   {
     id: 9,
@@ -69,7 +69,7 @@ export const products_data = [
     price: 7.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c4.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c4.jpg`
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ export const products_data = [
     price: 6,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c5.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c5.jpg`
   },
   {
     id: 11,
@@ -85,7 +85,7 @@ export const products_data = [
     price: 7.5,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 12,
@@ -93,7 +93,7 @@ export const products_data = [
     price: 4.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 13,
@@ -101,7 +101,7 @@ export const products_data = [
     price: 9.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 14,
@@ -109,7 +109,7 @@ export const products_data = [
     price: 4.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 15,
@@ -117,7 +117,7 @@ export const products_data = [
     price: 9.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 16,
@@ -125,7 +125,7 @@ export const products_data = [
     price: 5.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 17,
@@ -133,7 +133,7 @@ export const products_data = [
     price: 9,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "fragrance",
-    image: "/images/p1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/p1.jpg`
   },
   {
     id: 18,
@@ -141,7 +141,7 @@ export const products_data = [
     price: 10.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c6.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c6.jpg`
   },
   {
     id: 19,
@@ -149,7 +149,7 @@ export const products_data = [
     price: 6.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c7.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c7.jpg`
   },
   {
     id: 20,
@@ -157,7 +157,7 @@ export const products_data = [
     price: 17.99,
     smallDescription: "Glowing skin, Happy soul for our great customers.",
     category: "skincare",
-    image: "/images/c1.jpg"
+    image: `${process.env.PUBLIC_URL}/images/c1.jpg`
   }
 ];
 
